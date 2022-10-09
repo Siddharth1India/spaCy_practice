@@ -62,3 +62,18 @@ spaCy Doc container does much more with its tokenization than a simple split met
 ### Sentence Boundary Detection (SBD)
 
 SBD is detection of sentence in text data. A simple python function to find sentence would be splitting data by "." but we use same symbol for abbreviations. Due to this reason, there are possibilities of algorithm detecting wrong statements from text if applied with simple split logic. 
+
+### Token Attributes
+
+List of token attributes:
+1. .text
+2. .head
+3. .left_edge
+4. .right_edge
+5. .ent_type_
+6. .iob_
+7. .lemma_
+8. .morph
+9. .pos_
+10. .dep_
+11. .lang_
