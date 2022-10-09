@@ -77,3 +77,6 @@ List of token attributes:
 9. .pos_
 10. .dep_
 11. .lang_
+
+### Part of Speech Tagging (POS)
+
