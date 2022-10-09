@@ -7,7 +7,7 @@ I am working on ML based NLP repo which will be on my profile soon.
 ## NLP vs NLU
 
 NLP is basically a superset and NLU can be considered as subset.
-<br><br>
+<br>
 
 ### Natural Language Processing:
 1. Named Entity Recognition
@@ -28,6 +28,6 @@ NLP is basically a superset and NLU can be considered as subset.
 
 Most of these areas are very important and used extensively by industry and spaCy provides lots of functionality for most of tasks listed here (If I say in django language, batteries included!).
 
-<br><br>
+<br>
 
-Recently, I was going through Graph Neural Networks (great start to topic [Here](https://distill.pub/2021/gnn-intro/)) and found out graphs are way to represent images instead of using conventional grid representation and I also found out text (unstructured data) can also be represented using graphs which is why I am learning this stuff now. 
+Recently, I was going through Graph Neural Networks (great start to topic [here](https://distill.pub/2021/gnn-intro/)) and found out graphs are way to represent images instead of using conventional grid representation and I also found out text (unstructured data) can also be represented using graphs which is why I am learning this stuff now. 
