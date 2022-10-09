@@ -57,3 +57,8 @@ List of spaCy containers:
 Here is visualization of spaCy container by Dr. W.J.B. Mattingly. <br>
 <img src='./static/spacy_containers.png' height="500px" alt="spaCy Container">
 
+spaCy Doc container does much more with its tokenization than a simple split method. Mistakes in spaCy tokenizers are very rare. That is why rather than writing complex langugae tokenizer functions from scratch, it is better to use spaCy's function. 
+
+### Sentence Boundary Detection (SBD)
+
+SBD is detection of sentence in text data. A simple python function to find sentence would be splitting data by "." but we use same symbol for abbreviations. Due to this reason, there are possibilities of algorithm detecting wrong statements from text if applied with simple split logic. 
