@@ -53,3 +53,6 @@ List of spaCy containers:
 8. Token
 
 [Tutorial I am following](https://www.youtube.com/watch?v=dIUTsFT2MeQ) discussing mainly about Doc, Span and Token.
+
+Here is visualization of spaCy container by Dr. W.J.B. Mattingly.
+[spaCy Container](./static/spacy_containers.png)
