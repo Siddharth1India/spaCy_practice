@@ -55,4 +55,4 @@ List of spaCy containers:
 [Tutorial I am following](https://www.youtube.com/watch?v=dIUTsFT2MeQ) discussing mainly about Doc, Span and Token.
 
 Here is visualization of spaCy container by Dr. W.J.B. Mattingly.
-![spaCy Container](/static/spacy_containers.png =x250)
+<img src='./static/spacy_containers.png' height="250px" alt="spaCy Container">
