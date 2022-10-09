@@ -56,3 +56,4 @@ List of spaCy containers:
 
 Here is visualization of spaCy container by Dr. W.J.B. Mattingly. <br>
 <img src='./static/spacy_containers.png' height="500px" alt="spaCy Container">
+
