@@ -117,7 +117,7 @@ spaCy gives various pipelines, heuristic (rule-based) and Machine Learning based
 
 SpaCy is much more than an NLP framework. It is also a way of designing and implementing complex pipelines. A pipeline is a sequence of pipes, or actors on data, that make alterations to the data or extract information from it. In some cases, later pipes require the output from earlier pipes. In other cases, a pipe can exist entirely on its own.
 
-<img src='./static/sample_pipeline.png' height="500px" alt="spaCy Pipeline">
+<img src='./static/sample_pipeline.png' height="300px" alt="spaCy Pipeline">
 
 <br>
 Here, we see an input, in this case a sentence, enter the pipeline from the left. Two pipes are activated on this, a rules-based named entity recognizer known as an EntityRuler which finds entities and an EntityLinker pipe that identifies what entity that is to perform toponym resolution. The sentence is then outputted with the sentence and the entities annotated. At this point, we could use the doc.ents feature to find the entities in our sentence. 
