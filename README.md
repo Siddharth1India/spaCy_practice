@@ -95,3 +95,8 @@ For this specific reason and more, we needs to create word vectors. Also, numeri
 
 ### What do word vectors looks like?
 
+Word vectors have a preset number of dimensions. These dimensions are honed via machine learned. Models take into account word frequency alongside words across a corpus and the appearance of other words in similar contexts. This allows for the the computer to determine the syntactical similarity of words numerically. It then needs to represent these relationships numerically. It does this through the vector, or a matrix of matrices. To represent these more concisely, models flatten a matrix to a float (decimal number). The number of dimensions represent the number of floats in the matrix.
+
+### Why use Word Vectors?
+
+Once a word vector model is trained, we can do similarity matches very quickly and very reliably.
