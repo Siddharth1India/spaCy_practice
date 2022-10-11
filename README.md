@@ -89,3 +89,9 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 ## Word Vectors and spaCy
 
 ### Word Vectors
+
+The goal of word vectors is to achieve numerical understanding of language so that a computer can perform more complex tasks on that corpus. While looking for synonyms, normal approach we usually thinks is to create dictionary and look for words. This idea sounds pretty good while dealing with basic words but there will be just too many conditions. Like if I give input as 'Ram', system may not understand name and give error. Also, if I use some slang words or similar phrases, system may get confused. Imagine using word "garbage down" and system will not give synonym as "eat". One more issue would be, it would be computationally very expensive to iterate through whole dictionary each time you need to find words. <br>
+For this specific reason and more, we needs to create word vectors. Also, numerical values are easier to feed to computational machines. 
+
+### What do word vectors looks like?
+
