@@ -93,18 +93,22 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 The goal of word vectors is to achieve numerical understanding of language so that a computer can perform more complex tasks on that corpus. While looking for synonyms, normal approach we usually thinks is to create dictionary and look for words. This idea sounds pretty good while dealing with basic words but there will be just too many conditions. Like if I give input as 'Ram', system may not understand name and give error. Also, if I use some slang words or similar phrases, system may get confused. Imagine using word "garbage down" and system will not give synonym as "eat". One more issue would be, it would be computationally very expensive to iterate through whole dictionary each time you need to find words. <br>
 For this specific reason and more, we needs to create word vectors. Also, numerical values are easier to feed to computational machines. 
 
-### What do word vectors looks like?
+#### What do word vectors looks like?
 
 Word vectors have a preset number of dimensions. These dimensions are honed via machine learned. Models take into account word frequency alongside words across a corpus and the appearance of other words in similar contexts. This allows for the the computer to determine the syntactical similarity of words numerically. It then needs to represent these relationships numerically. It does this through the vector, or a matrix of matrices. To represent these more concisely, models flatten a matrix to a float (decimal number). The number of dimensions represent the number of floats in the matrix.
 
-### Why use Word Vectors?
+#### Why use Word Vectors?
 
 Once a word vector model is trained, we can do similarity matches very quickly and very reliably.
 
-## Doc Similarity
+### Doc Similarity
 
 In spaCy we can do this same thing at the document level. Through word vectors we can calculate the similarity between two documents.
 
-## Word Similarity
+### Word Similarity
 
 We can also calculate the similarity between two given words.
+
+## spaCy's Pipelines
+
+spaCy gives various pipelines, heuristic (rule-based) and Machine Learning based approaches. 
