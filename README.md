@@ -100,3 +100,11 @@ Word vectors have a preset number of dimensions. These dimensions are honed via 
 ### Why use Word Vectors?
 
 Once a word vector model is trained, we can do similarity matches very quickly and very reliably.
+
+## Doc Similarity
+
+In spaCy we can do this same thing at the document level. Through word vectors we can calculate the similarity between two documents.
+
+## Word Similarity
+
+We can also calculate the similarity between two given words.
